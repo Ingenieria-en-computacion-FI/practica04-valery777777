@@ -27,6 +27,7 @@ Nodo* agregarNodo(Nodo* arreglo, int* n, int valor){
         (*n)++;
         return newNode;
     }
+    return arreglo;
 }
 
 /* Ejercicio 4 */
